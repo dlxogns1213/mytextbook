@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공유된 바둑 교본</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        li {
+            width: calc(50% - 5px); /* 2개씩 표시, 간격은 5px */
+            margin-bottom: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>공유된 바둑 교본</h1>
+    </header>
+
+    <main>
+        <h2>공유된 바둑 교본 목록</h2>
+        <ul>
+            <!-- 각 교본에 대한 링크를 추가 (1개부터 10개까지) -->
+            <li><a href="#">바둑 교본 1</a></li>
+            <li><a href="#">바둑 교본 2</a></li>
+            <li><a href="#">바둑 교본 3</a></li>
+            <li><a href="#">바둑 교본 4</a></li>
+            <li><a href="#">바둑 교본 5</a></li>
+            <li><a href="#">바둑 교본 6</a></li>
+            <li><a href="#">바둑 교본 7</a></li>
+            <li><a href="#">바둑 교본 8</a></li>
+            <li><a href="#">바둑 교본 9</a></li>
+            <li><a href="#">바둑 교본 10</a></li>
+        </ul>
+    </main>
+
+</body>
+</html>
